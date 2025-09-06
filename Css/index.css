@@ -10,33 +10,92 @@
   background-color: #f9edd6;
 }
 
+/* Header Layout */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: auto;
   height: 15vh;
   background-color: #dba9a6;
-  padding: 0px 30px;
+  padding: 0 30px;
 }
 
 .logo img {
   height: 5rem;
 }
 
-nav .contact-link {
-  text-decoration: none;
-  color: #fdfdf9;
-  background-color: #a56938;
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding: 8px 18px;
-  border-radius: 10px;
-  transition: background 0.2s;
+.navbar {
+  display: flex;
+  align-items: center;
+  flex: 1; /* take remaining space */
+  justify-content: space-between;
+  margin-left: 2rem;
 }
 
-nav .contact-link:hover {
-  background: #f5d1ce;
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #a56938;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #a56938;
+}
+
+.nav-links li a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-links li a.active {
+  color: #a56938;
+  font-weight: 700;
+}
+
+.contact-link {
+  background-color: #a56938;
+  color: #fdfdf9;
+  padding: 8px 18px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s;
+  margin-left: 2rem;
+}
+
+.contact-link:hover {
+  background: #8a5730;
 }
 
 .hero-page {

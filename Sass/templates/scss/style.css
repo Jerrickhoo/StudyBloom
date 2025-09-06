@@ -1,0 +1,494 @@
+.button-1 {
+  background-color: #1e90ff;
+  padding: 0.25rem 0.5rem;
+  color: #e0e0e0;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.button-2 {
+  background-color: #282c34;
+  padding: 0.5rem 1rem;
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.button-3 {
+  background-color: #ff9800;
+  padding: 0.5rem 1rem;
+  color: #e0e0e0;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.button-4 {
+  background-color: #1e90ff;
+  padding: 0.75rem 1.5rem;
+  color: #82aaff;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.button-5 {
+  background-color: #1e90ff;
+  padding: 0.25rem 0.5rem;
+  color: #e0e0e0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.button-6 {
+  background-color: rgb(143, 100, 100);
+  padding: 0.75rem 1.5rem;
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.button-7 {
+  background-color: rgb(82, 153, 204);
+  padding: 0.75rem 1.5rem;
+  color: #e0e0e0;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.button-8 {
+  background-color: rgb(151, 37, 37);
+  padding: 0.25rem 0.5rem;
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.button-9 {
+  background-color: rgb(11, 11, 122);
+  padding: 0.25rem 0.5rem;
+  color: #e0e0e0;
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+.button-10 {
+  background-color: rgb(58, 212, 58);
+  padding: 0.5rem 1rem;
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.back-button {
+  background-color: #282c34;
+  color: #e0e0e0;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(237, 158, 158);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-btn-container {
+  margin: 2rem;
+  text-align: center;
+}
+
+.body {
+  background-color: #181a1b;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  justify-self: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10vh;
+  padding: 30px;
+  border: 5px solid #333;
+  border-radius: 10px;
+  gap: 20px;
+  height: auto;
+  width: 80vw;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10vh;
+  padding: 30px;
+  border: 5px solid #333;
+  border-radius: 10px;
+  gap: 20px;
+  height: auto;
+  width: 80vw;
+}
+
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10vh;
+  padding: 30px;
+  border: 5px solid #333;
+  border-radius: 10px;
+  gap: 20px;
+  height: auto;
+  width: 80vw;
+}
+
+.form-1 {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #1e90ff;
+  border: 1px solid rgb(237, 158, 158);
+  border-radius: 3px;
+  color: #e0e0e0;
+  justify-content: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-2 {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  background-color: #282c34;
+  border: 3px solid rgb(126, 52, 255);
+  border-radius: 5px;
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-3 {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff9800;
+  border: 5px solid rgb(237, 158, 158);
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-4 {
+  font-size: 1.125rem;
+  padding: 0.25rem 0.5rem;
+  background-color: rgb(143, 100, 100);
+  border: 8px solid rgb(117, 12, 63);
+  border-radius: 15px;
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-5 {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(82, 153, 204);
+  border: 10px solid rgb(237, 158, 158);
+  border-radius: 25px;
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-6 {
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(151, 37, 37);
+  border: 3px dashed rgb(126, 52, 255);
+  border-radius: 3px;
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-7 {
+  font-size: 1.875rem;
+  padding: 0.25rem 0.5rem;
+  background-color: rgb(11, 11, 122);
+  border: 5px dashed rgb(237, 158, 158);
+  border-radius: 5px;
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-8 {
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(58, 212, 58);
+  border: 8px dashed rgb(117, 12, 63);
+  border-radius: 10px;
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-9 {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #1e90ff;
+  border: 10px dashed rgb(237, 158, 158);
+  border-radius: 15px;
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.form-10 {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #282c34;
+  border: 1px dashed rgb(237, 158, 158);
+  border-radius: 25px;
+  color: #e0e0e0;
+  justify-content: center;
+  align-self: center;
+}
+
+.table-1 {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background-color: rgb(143, 100, 100);
+  border: 3px solid rgb(126, 52, 255);
+  border-radius: 10px;
+  color: #e0e0e0;
+  text-align: left;
+}
+.table-1 tr {
+  background-color: rgb(143, 100, 100);
+  border-bottom: 3px dashed rgb(126, 52, 255);
+}
+.table-1 tr td {
+  font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+  border: 8px solid rgb(117, 12, 63);
+  color: #e0e0e0;
+  text-align: justify;
+}
+.table-1 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-2 {
+  font-size: 0.875rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #1e90ff;
+  border: 8px dashed rgb(117, 12, 63);
+  border-radius: 5px;
+  color: #e0e0e0;
+  text-align: center;
+}
+.table-2 tr {
+  background-color: #282c34;
+  border-bottom: 1px solid rgb(237, 158, 158);
+}
+.table-2 tr td {
+  font-size: 1.25rem;
+  padding: 0.25rem 0.5rem;
+  border: 10px solid rgb(237, 158, 158);
+  color: #e0e0e0;
+  text-align: center;
+}
+.table-2 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-3 {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #282c34;
+  border: 1px dashed rgb(237, 158, 158);
+  border-radius: 15px;
+  color: #e0e0e0;
+  text-align: right;
+}
+.table-3 tr {
+  background-color: rgb(143, 100, 100);
+  border-bottom: 3px dashed rgb(126, 52, 255);
+}
+.table-3 tr td {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgb(237, 158, 158);
+  color: #e0e0e0;
+  text-align: left;
+}
+.table-3 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-4 {
+  font-size: 1.125rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #ff9800;
+  border: 5px solid rgb(237, 158, 158);
+  border-radius: 25px;
+  color: #181a1b;
+  text-align: center;
+}
+.table-4 tr {
+  background-color: rgb(82, 153, 204);
+  border-bottom: 5px solid rgb(237, 158, 158);
+}
+.table-4 tr td {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: 5px dashed rgb(237, 158, 158);
+  color: #e0e0e0;
+  text-align: right;
+}
+.table-4 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-5 {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(82, 153, 204);
+  border: 10px solid rgb(237, 158, 158);
+  border-radius: 3px;
+  color: #e0e0e0;
+  text-align: left;
+}
+.table-5 tr {
+  background-color: #282c34;
+  border-bottom: 1px solid rgb(237, 158, 158);
+}
+.table-5 tr td {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgb(237, 158, 158);
+  color: #e0e0e0;
+  text-align: left;
+}
+.table-5 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-6 {
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(151, 37, 37);
+  border: 3px dashed rgb(126, 52, 255);
+  border-radius: 5px;
+  color: #e0e0e0;
+  text-align: justify;
+}
+.table-6 tr {
+  background-color: rgb(143, 100, 100);
+  border-bottom: 3px dashed rgb(126, 52, 255);
+}
+.table-6 tr td {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border: 3px solid rgb(126, 52, 255);
+  color: #e0e0e0;
+  text-align: center;
+}
+.table-6 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-7 {
+  font-size: 1.875rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(11, 11, 122);
+  border: 5px dashed rgb(237, 158, 158);
+  border-radius: 10px;
+  color: #e0e0e0;
+  text-align: center;
+}
+.table-7 tr {
+  background-color: rgb(82, 153, 204);
+  border-bottom: 5px solid rgb(237, 158, 158);
+}
+.table-7 tr td {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: 5px dashed rgb(237, 158, 158);
+  color: #e0e0e0;
+  text-align: right;
+}
+.table-7 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-8 {
+  font-size: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(58, 212, 58);
+  border: 8px solid rgb(117, 12, 63);
+  border-radius: 15px;
+  color: #e0e0e0;
+  text-align: left;
+}
+.table-8 tr {
+  background-color: #ff9800;
+  border-bottom: 8px solid rgb(117, 12, 63);
+  color: #181a1b;
+}
+.table-8 tr td {
+  font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+  border: 8px solid rgb(117, 12, 63);
+  color: #e0e0e0;
+  text-align: justify;
+}
+.table-8 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-9 {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #1e90ff;
+  border: 10px dashed rgb(237, 158, 158);
+  border-radius: 25px;
+  color: #181a1b;
+  text-align: center;
+}
+.table-9 tr {
+  background-color: rgb(151, 37, 37);
+  border-bottom: 10px dashed rgb(237, 158, 158);
+}
+.table-9 tr td {
+  font-size: 1.25rem;
+  padding: 0.25rem 0.5rem;
+  border: 10px solid rgb(237, 158, 158);
+  color: #e0e0e0;
+  text-align: center;
+}
+.table-9 tr td:hover {
+  background-color: #22262a;
+}
+
+.table-10 {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  background-color: #282c34;
+  border: 1px solid rgb(237, 158, 158);
+  border-radius: 10px;
+  color: #e0e0e0;
+  text-align: right;
+}
+.table-10 tr {
+  background-color: #282c34;
+  border-bottom: 1px solid rgb(237, 158, 158);
+}
+.table-10 tr td {
+  font-size: 1.25rem;
+  padding: 0.25rem 0.5rem;
+  border: 10px solid rgb(237, 158, 158);
+  color: #e0e0e0;
+  text-align: center;
+}
+.table-10 tr td:hover {
+  background-color: #22262a;
+}/*# sourceMappingURL=style.css.map */

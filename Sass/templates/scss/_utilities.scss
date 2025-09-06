@@ -1,0 +1,16 @@
+.body{
+    @include body;
+}
+
+.btn-container{
+    @include container;
+}
+
+.form-container{
+    @include container;
+}
+
+.table-container{
+    @include container;
+}
+

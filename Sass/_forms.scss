@@ -1,0 +1,14 @@
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid lighten($color-primary, 20%);
+  border-radius: $radius-sm;
+  font-family: $font-main;
+
+  &:focus {
+    border-color: $color-accent;
+    outline: none;
+  }
+}

@@ -1,0 +1,90 @@
+.table-1 {
+  @include table-1;
+  tr {
+    @include tr-2;
+    td {
+      @include td-4;
+    }
+  }
+}
+.table-2 {
+  @include table-2;
+  tr {
+    @include tr-1;
+    td {
+      @include td-5;
+    }
+  }
+}
+.table-3 {
+  @include table-3;
+  tr {
+    @include tr-2;
+    td {
+      @include td-1;
+    }
+  }
+}
+.table-4 {
+  @include table-4;
+  tr {
+    @include tr-3;
+    td {
+      @include td-3;
+    }
+  }
+}
+.table-5 {
+  @include table-5;
+  tr {
+    @include tr-1;
+    td {
+      @include td-1;
+    }
+  }
+}
+.table-6 {
+  @include table-6;
+  tr {
+    @include tr-2;
+    td {
+      @include td-2;
+    }
+  }
+}
+.table-7 {
+  @include table-7;
+  tr {
+    @include tr-3;
+    td {
+      @include td-3;
+    }
+  }
+}
+.table-8 {
+  @include table-8;
+  tr {
+    @include tr-4;
+    td {
+      @include td-4;
+    }
+  }
+}
+.table-9 {
+  @include table-9;
+  tr {
+    @include tr-5;
+    td {
+      @include td-5;
+    }
+  }
+}
+.table-10 {
+  @include table-10;
+  tr {
+    @include tr-1;
+    td {
+      @include td-5;
+    }
+  }
+}
